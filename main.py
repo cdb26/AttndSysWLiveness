@@ -19,8 +19,8 @@ RED      = "#ff4060"
 YELLOW   = "#f0c040"
 DIMTEXT  = "#3e5070"
 TEXT     = "#ccd9f0"
-CAM_W    = 560
-CAM_H    = 420
+CAM_W    = 720
+CAM_H    = 480
 
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
@@ -76,7 +76,7 @@ reg_dataset_path = ""
 
 root = tk.Tk()
 root.title("Face Attendance System")
-root.geometry("1060x720")
+root.geometry("1600x800")
 root.resizable(False, False)
 root.configure(bg=BG)
 
